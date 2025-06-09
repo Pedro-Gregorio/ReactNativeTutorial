@@ -1,6 +1,8 @@
 import { View, Text, StyleSheet, Image } from "react-native";
 import React from "react";
 
+import "../global.css";
+
 const Home = () => {
   return (
     <View style={styles.container}>
@@ -9,7 +11,7 @@ const Home = () => {
         source={require("../assets/img/logo_light.png")}
       />
 
-      <Text style={styles.title}>Hello World</Text>
+      <Text className="text-2xl font-black">Hello World</Text>
       <Text style={{ marginTop: 10, marginBottom: 30 }}>Hello World 2</Text>
 
       <View style={styles.card}>

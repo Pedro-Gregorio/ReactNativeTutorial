@@ -4,7 +4,7 @@
 
 1. Set up your [environment](https://docs.expo.dev/get-started/set-up-your-environment/)
 
-2. Install all the dependencies with npm install
+2. Install all the dependencies with `npm install`
 
 3. Run the command `npx expo start`
 

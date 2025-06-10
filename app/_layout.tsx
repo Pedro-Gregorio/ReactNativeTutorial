@@ -35,3 +35,15 @@ const RootLayout = () => {
 export default RootLayout;
 
 const styles = StyleSheet.create({});
+
+/*
+
+Notes:
+
+The Stack component allows us to access native OS navigation system - with those "back" buttons on top 
+when navigating through pages. This can also be styled with the screenOptions property.
+
+The <StatusBar /> component is used to avoid messing with OS colors on the top bar, when playing
+with color schemes.
+
+*/

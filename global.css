@@ -7,7 +7,7 @@
 }
 
 .container {
-  @apply flex-1 justify-center items-center;
+  @apply p-4 flex-1 justify-center items-start;
 }
 
 .card {

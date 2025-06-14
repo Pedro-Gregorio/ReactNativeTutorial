@@ -14,7 +14,9 @@ const Home = () => {
   return (
     <ThemedView className="container">
       <View className="w-full flex flex-row justify-between items-center">
-        <ThemedText className="title">Movies</ThemedText>
+        <ThemedText className="title" title>
+          Movies
+        </ThemedText>
         <View className="border rounded-full p-1">
           <Icon name="settings" size={24} style={{ color: theme.text }} />
         </View>

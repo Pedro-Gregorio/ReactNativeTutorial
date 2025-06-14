@@ -7,6 +7,7 @@ import ThemedView from "../components/ThemedView";
 import ThemedText from "../components/ThemedText";
 
 import Icon from "@react-native-vector-icons/lucide";
+import { Link } from "expo-router";
 
 const Home = () => {
   const colorScheme = useColorScheme() || "light";
@@ -47,6 +48,10 @@ const Home = () => {
           );
         }}
       />
+
+      <Link href={"/login"}>
+        <ThemedText className="underline">Login</ThemedText>
+      </Link>
     </ThemedView>
   );
 };

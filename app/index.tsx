@@ -1,11 +1,12 @@
-import { View, Text, useColorScheme, FlatList } from "react-native";
-
 import { Movies } from "../constants/Movies";
 import { Colors } from "../constants/Colors";
 import "../global.css";
-import Icon from "@react-native-vector-icons/lucide";
+
+import { View, useColorScheme, FlatList } from "react-native";
 import ThemedView from "../components/ThemedView";
 import ThemedText from "../components/ThemedText";
+
+import Icon from "@react-native-vector-icons/lucide";
 
 const Home = () => {
   const colorScheme = useColorScheme() || "light";
@@ -35,7 +36,9 @@ const Home = () => {
               </ThemedText>
               <ThemedText>
                 Directed by{" "}
-                <Text className="font-bold">{movie.item.director}</Text>
+                <ThemedText className="font-bold">
+                  {movie.item.director}
+                </ThemedText>
               </ThemedText>
               <ThemedText className="opacity-80 text-sm">
                 Release Date: {movie.item.movieReleaseDate}
